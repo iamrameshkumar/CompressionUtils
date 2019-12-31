@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Minizip">
+      <UniqueIdentifier>{68b310fe-0af8-4b56-8ce0-2084b7c584cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minizip\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Minizip\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Minizip\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Zipper">
+      <UniqueIdentifier>{fffac464-355b-4f76-a49f-ed706df1673f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zipper\Source Files">
+      <UniqueIdentifier>{468938bc-be2f-433c-94d7-b360e9cb2ea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zipper\Header Files">
+      <UniqueIdentifier>{6fb6d268-1b19-4ec0-b12d-5553a3c421ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GZip">
+      <UniqueIdentifier>{0d5cccaa-502e-4bf3-8bbc-d412b6d57a2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GZip\Source Files">
+      <UniqueIdentifier>{0b2ee6ed-58f2-4e7b-b41c-f2b0d969ec57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GZip\Header Files">
+      <UniqueIdentifier>{b2eec0c9-c2f8-477d-a3a3-51b3a62afbd0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\MiniZip\Include\crypt.h">
+      <Filter>Minizip\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MiniZip\Include\ioapi.h">
+      <Filter>Minizip\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MiniZip\Include\iowin32.h">
+      <Filter>Minizip\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MiniZip\Include\mztools.h">
+      <Filter>Minizip\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MiniZip\Include\unzip.h">
+      <Filter>Minizip\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MiniZip\Include\zip.h">
+      <Filter>Minizip\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Zipper\Include\CDirEntry.h">
+      <Filter>Zipper\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Zipper\Include\defs.h">
+      <Filter>Zipper\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Zipper\Include\tools.h">
+      <Filter>Zipper\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Zipper\Include\unzipper.h">
+      <Filter>Zipper\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Zipper\Include\zipper.h">
+      <Filter>Zipper\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MiniZip\Include\ioapi_buf.h">
+      <Filter>Minizip\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MiniZip\Include\ioapi_mem.h">
+      <Filter>Minizip\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GZip\Include\GZipUtils.h">
+      <Filter>GZip\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\include\stdafx.h">
+      <Filter>GZip\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\MiniZip\Src\ioapi.c">
+      <Filter>Minizip\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MiniZip\Src\iowin32.c">
+      <Filter>Minizip\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MiniZip\Src\miniunz.c">
+      <Filter>Minizip\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MiniZip\Src\minizip.c">
+      <Filter>Minizip\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MiniZip\Src\mztools.c">
+      <Filter>Minizip\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MiniZip\Src\unzip.c">
+      <Filter>Minizip\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MiniZip\Src\zip.c">
+      <Filter>Minizip\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Zipper\Src\CDirEntry.cpp">
+      <Filter>Zipper\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Zipper\Src\tools.cpp">
+      <Filter>Zipper\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Zipper\Src\unzipper.cpp">
+      <Filter>Zipper\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Zipper\Src\zipper.cpp">
+      <Filter>Zipper\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Zipper\tps\Src\dirent.c">
+      <Filter>Zipper\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MiniZip\Src\ioapi_buf.c">
+      <Filter>Minizip\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MiniZip\Src\ioapi_mem.c">
+      <Filter>Minizip\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GZip\Src\GZipUtils.cpp">
+      <Filter>GZip\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MiniZip\Src\minishared.c">
+      <Filter>Minizip\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
